@@ -37,6 +37,11 @@ main>h1{
 main img{
     width: 100%;
 }
+main img.pequena{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
 main>h1#hh{
     background-color: red;
     text-align: center;

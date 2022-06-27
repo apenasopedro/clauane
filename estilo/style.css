@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eaff5e;
+}
+header{
+    background-image: linear-gradient(to bottom, #f7f7f7, #d5f80c );
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    }
+header>h1{
+    font-family:"Dancing Script", Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+main{
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.445);
+    min-width: 300px;
+    max-width: 1000px;
+}
+main>h1{
+    font-family: "Courgette",Arial, Helvetica, sans-serif;
+}
+main img{
+    width: 100%;
+}
+main>h1#hh{
+    background-color: red;
+    text-align: center;
+}

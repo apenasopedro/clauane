@@ -1,2 +1,0 @@
-# clauane
- para voce querida
